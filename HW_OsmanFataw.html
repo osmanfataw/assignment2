@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Date</title>
+    <script>
+        function displayDate() {
+            document.getElementById("showDate").innerHTML = Date();
+        } 
+    </script>
+    <style>
+        body{
+            padding-left: 50px;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            background-color:green;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+<button type="button" onclick="displayDate()"><b>Get Date</b></button>
+
+<p id="showDate"></p>
+    
+</body>
+</html>
